@@ -1,0 +1,22 @@
+{
+  "name": "i18n-json-translator",
+  "version": "1.0.0",
+  "description": "Simple CLI tool to translate every value in the locale JSON file.",
+  "author": "Vladislav Bulyukhin <vlad.bulyukhin@yahoo.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "i18n-json-translator": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "google-translate": "^2.2.0",
+    "meow": "^5.0.0"
+  }
+}
