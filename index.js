@@ -13,9 +13,9 @@ module.exports = function ({ googleApiKey }) {
    * @param {Object} config
    * @param {String} config.toLanguage
    *    Target language.
-   * @param {String} config.prevVersion
+   * @param {String?} config.prevVersion
    *    If specified, the previously translated values will not be overwritten.
-   * @param {Number} config.indent
+   * @param {Number?} config.indent
    *    Number of spaces used for indentation in the result JSON.
    * @returns {Promise<String>}
    */

@@ -1,0 +1,13 @@
+{
+  "key": "translation for value in cs language",
+  "object": {
+    "key": "translation for object.key in cs language"
+  },
+  "array": [
+    "translation for array.value in cs language",
+    1,
+    {
+      "key": "translation for array.object.key in cs language"
+    }
+  ]
+}
