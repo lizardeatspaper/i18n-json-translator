@@ -1,0 +1,13 @@
+{
+  "key": "value",
+  "object": {
+    "key": "object.key"
+  },
+  "array": [
+    "array.value",
+    1,
+    {
+      "key": "array.object.key"
+    }
+  ]
+}
