@@ -56,7 +56,7 @@ if (typeof cli.flags.prevVersion !== 'undefined' && !fs.existsSync(cli.flags.pre
   cli.showHelp(1)
 }
 
-const { translate } = require('.')({ googleApiKey: cli.flags.googleApiKey }) // 'AIzaSyCslhGRPMznAx6g0FWfW21zQwADYK4v5zw'
+const { translate } = require('.')({ googleApiKey: cli.flags.googleApiKey })
 
 Promise.all([
   loadJsonFromFile(cli.input[0]),
